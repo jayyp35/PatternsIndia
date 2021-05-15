@@ -1,0 +1,19 @@
+{
+  "name": "patternsindia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "sass": "^1.32.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "sass": "sass --watch public/style.scss:public/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
